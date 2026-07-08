@@ -1,0 +1,224 @@
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--leading-normal);
+  color: var(--color-text-primary);
+}
+
+/* --- Headings --- */
+
+h1, .h1 {
+  font-family: var(--font-heading);
+  font-size: var(--text-5xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text-primary);
+}
+
+h2, .h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text-primary);
+}
+
+h3, .h3 {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--leading-tight);
+  color: var(--color-text-primary);
+}
+
+h4, .h4 {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--leading-tight);
+  color: var(--color-text-primary);
+}
+
+h5, .h5 {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--leading-tight);
+  color: var(--color-text-primary);
+}
+
+h6, .h6 {
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--leading-tight);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+}
+
+/* --- Body text --- */
+
+p {
+  margin-bottom: var(--space-4);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.lead {
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color: var(--color-text-secondary);
+}
+
+.text-small {
+  font-size: var(--text-sm);
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+}
+
+/* --- Inline elements --- */
+
+strong, b {
+  font-weight: var(--font-weight-semibold);
+}
+
+em, i {
+  font-style: italic;
+}
+
+small {
+  font-size: var(--text-sm);
+}
+
+mark {
+  background-color: var(--color-accent-light);
+  padding: 0.125rem 0.25rem;
+  border-radius: var(--radius-sm);
+}
+
+/* --- Links --- */
+
+a:not(.btn):not(.nav__link):not(.footer__link) {
+  color: var(--color-primary);
+  transition: color var(--transition-fast);
+}
+
+a:not(.btn):not(.nav__link):not(.footer__link):hover {
+  color: var(--color-primary-hover);
+}
+
+/* --- Lists --- */
+
+ul:not([class]),
+ol:not([class]) {
+  padding-left: var(--space-6);
+  margin-bottom: var(--space-4);
+}
+
+ul:not([class]) li,
+ol:not([class]) li {
+  margin-bottom: var(--space-2);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+ul:not([class]) {
+  list-style: disc;
+}
+
+ol:not([class]) {
+  list-style: decimal;
+}
+
+/* --- Blockquote --- */
+
+blockquote {
+  border-left: 4px solid var(--color-primary);
+  padding: var(--space-4) var(--space-6);
+  margin: var(--space-6) 0;
+  background: var(--color-gray-50);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+blockquote p {
+  font-style: italic;
+  color: var(--color-text-secondary);
+  margin-bottom: 0;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text-tertiary);
+  font-style: normal;
+}
+
+/* --- Code --- */
+
+code:not([class]) {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  background: var(--color-gray-100);
+  padding: 0.125rem 0.375rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-primary-dark);
+}
+
+pre:not([class]) {
+  background: var(--color-gray-900);
+  color: var(--color-gray-100);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  overflow-x: auto;
+  margin: var(--space-4) 0;
+}
+
+pre:not([class]) code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: var(--text-sm);
+}
+
+/* --- HR --- */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: var(--space-8) 0;
+}
+
+/* --- Selection --- */
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* --- Text utilities --- */
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-uppercase { text-transform: uppercase; }
+.text-capitalize { text-transform: capitalize; }
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
