@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What documents are required for a standard business visa application?",
+    "answer": "A standard business visa application typically requires a valid passport with at least 6 months validity, completed visa application form, passport-sized photographs, travel itinerary, hotel bookings, company invitation letter, bank statements for the last 3-6 months, and proof of employment. Specific requirements may vary by country."
+  },
+  {
+    "id": 2,
+    "question": "How long does it take to process a business visa?",
+    "answer": "Processing times vary by country and visa type. e-Visas are typically processed within 24-72 hours. Standard visa processing can take 5-15 business days. Some countries offer expedited processing for an additional fee. We recommend applying at least 3-4 weeks before your intended travel date."
+  },
+  {
+    "id": 3,
+    "question": "Can I travel while my visa application is being processed?",
+    "answer": "It is not recommended to make non-refundable travel arrangements until your visa has been approved. If you must travel, ensure you have a valid visa for your destination or that you are traveling to a country where you have visa-free access."
+  },
+  {
+    "id": 4,
+    "question": "What is the difference between a single-entry and multiple-entry visa?",
+    "answer": "A single-entry visa allows you to enter the destination country only once. Once you leave, the visa is no longer valid. A multiple-entry visa permits you to enter and exit the country multiple times during the visa's validity period. Business travelers often prefer multiple-entry visas for flexibility."
+  },
+  {
+    "id": 5,
+    "question": "How early should I apply for a business visa before my trip?",
+    "answer": "We recommend applying for a business visa at least 4-6 weeks before your planned departure. For popular destinations like the US, UK, or Schengen countries, apply 8-12 weeks in advance during peak travel seasons to account for appointment availability and processing delays."
+  },
+  {
+    "id": 6,
+    "question": "What happens if my visa application is rejected?",
+    "answer": "If your visa is rejected, the embassy will typically provide a reason for refusal. You may reapply addressing the concerns raised, appeal the decision if the country's regulations allow it, or request a review of your application. Our team can help analyze the rejection reason and guide you on the best course of action."
+  },
+  {
+    "id": 7,
+    "question": "Do I need a visa for a layover or transit stop?",
+    "answer": "Many countries require transit visas even if you are only changing flights and not leaving the airport. Countries like the US, UK, Canada, and Australia have strict transit visa requirements. We can advise you based on your nationality and itinerary whether a transit visa is needed."
+  },
+  {
+    "id": 8,
+    "question": "Can BTW Visa assist with urgent or emergency visa applications?",
+    "answer": "Yes, we offer expedited visa processing services for urgent travel needs. Our team prioritizes emergency applications and can often secure appointments within 24-48 hours for certain destinations. Contact our emergency support line for immediate assistance with time-sensitive travel requirements."
+  },
+  {
+    "id": 9,
+    "question": "What is the Ok to Board service and when is it needed?",
+    "answer": "Ok to Board is a verification service that confirms your travel documentation meets airline and immigration requirements before you check in for your flight. It is particularly important for travelers with complex visa histories, new visa stamps, or travel to countries with strict entry requirements. Airlines may deny boarding without this confirmation."
+  },
+  {
+    "id": 10,
+    "question": "How does BTW Visa ensure the security of my personal documents?",
+    "answer": "We take data security seriously. All personal documents are stored on encrypted servers with strict access controls. Our team follows GDPR and international data protection standards. Documents are only shared with embassies and authorized parties as required for your visa application and are not retained longer than necessary."
+  }
+]

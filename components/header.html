@@ -1,0 +1,64 @@
+<!-- ============================================================
+  Header Component — BTW Visa Corporate
+  Include via JS: fetch('components/header.html').then(r => r.text()).then(d => document.getElementById('header').innerHTML = d)
+  Or SSI: <!--#include virtual="/components/header.html" -->
+  ============================================================ -->
+<header class="header" role="banner" data-header>
+  <!-- Skip Link -->
+  <a href="#main-content" class="sr-only skip-link">Skip to main content</a>
+
+  <div class="container header__inner">
+    <!-- Logo -->
+    <a href="/" class="header__logo" aria-label="BTW Visa — Home">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="10" fill="#1a56db"/>
+        <path d="M10 14h20M10 20h16M10 26h12" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <span class="header__logo-text"><span>BTW</span> Visa</span>
+    </a>
+
+    <!-- Search (desktop) -->
+    <div class="search" role="search">
+      <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input class="search__input" type="search" placeholder="Search..." aria-label="Search the site">
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation" data-nav>
+      <ul class="nav__list" role="list">
+        <li class="nav__item">
+          <a href="/" class="nav__link nav__link--active" aria-current="page">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="/about/" class="nav__link">About Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="/our-services/" class="nav__link" aria-haspopup="true" aria-expanded="false" data-mega-trigger>
+            Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <!-- Mega menu placeholder — populated by mega-menu.html -->
+          <div class="mega-menu" data-mega-menu role="region" aria-label="Services menu"></div>
+        </li>
+        <li class="nav__item">
+          <a href="/visa-guide/" class="nav__link">Visa Guide</a>
+        </li>
+        <li class="nav__item">
+          <a href="/insights/" class="nav__link">Insights</a>
+        </li>
+        <li class="nav__item">
+          <a href="/contact-us/" class="nav__link">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Mobile toggle -->
+    <button class="nav__toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" data-nav-toggle>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+  </div>
+</header>

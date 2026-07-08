@@ -1,0 +1,49 @@
+<!-- ============================================================
+  Breadcrumb Component — Reusable
+  Usage:
+    <nav data-component="breadcrumb"
+         aria-label="Breadcrumb"
+         data-breadcrumb='[{"label":"Home","url":"/"},{"label":"About Us","url":"/about/"},{"label":"Our Team","url":"/about/team/"}]'
+         data-dark="false">
+    </nav>
+  ============================================================ -->
+<nav class="breadcrumb" aria-label="Breadcrumb" data-breadcrumb>
+  <!-- JSON-LD BreadcrumbList Structured Data -->
+  <script type="application/ld+json" data-breadcrumb-jsonld>
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://btwvisa.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Parent",
+        "item": "https://btwvisa.com/parent/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Current Page",
+        "item": "https://btwvisa.com/parent/current/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Dynamic breadcrumb items rendered by JS -->
+  <span class="breadcrumb__item" data-breadcrumb-item>
+    <a href="/" class="breadcrumb__link">Home</a>
+  </span>
+  <span class="breadcrumb__item" data-breadcrumb-item>
+    <a href="/parent/" class="breadcrumb__link">Parent</a>
+  </span>
+  <span class="breadcrumb__item" data-breadcrumb-item>
+    <span class="breadcrumb__current" aria-current="page">Current Page</span>
+  </span>
+</nav>

@@ -1,0 +1,26 @@
+# ============================================================================
+# Robots.txt — BTW Visa Corporate
+# ============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /components/
+Disallow: /data/
+
+# Allow search engines to crawl CSS/JS/images
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/svg/
+
+# Sitemaps
+Sitemap: https://www.btwvisa.com/sitemap-pages.xml
+Sitemap: https://www.btwvisa.com/sitemap-countries.xml
+Sitemap: https://www.btwvisa.com/sitemap-blog.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Host
+Host: https://www.btwvisa.com

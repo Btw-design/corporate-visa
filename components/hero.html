@@ -1,0 +1,62 @@
+<!-- ============================================================
+  Hero Component — Reusable
+  Usage:
+    <div data-component="hero"
+         data-tag="Your Tag"
+         data-title="Main <span>Headline</span>"
+         data-text="Supporting paragraph here."
+         data-btn-primary="Get Started"
+         data-btn-primary-url="/get-started/"
+         data-btn-secondary="Learn More"
+         data-btn-secondary-url="/about/"
+         data-stat-1-value="10K+"
+         data-stat-1-label="Visas Processed"
+         data-stat-2-value="50+"
+         data-stat-2-label="Countries"
+         data-stat-3-value="99%"
+         data-stat-3-label="Success Rate"
+         data-image="/assets/images/hero.svg">
+    </div>
+  ============================================================ -->
+<section class="hero" role="region" aria-label="Hero" data-hero>
+  <!-- Background decorations -->
+  <div class="hero__bg-decoration" aria-hidden="true">
+    <div class="hero__bg-circle"></div>
+    <div class="hero__bg-circle"></div>
+  </div>
+
+  <div class="container hero__inner">
+    <!-- Left content -->
+    <div class="hero__content">
+      <span class="hero__tag" data-hero-tag>Your Tag</span>
+      <h1 class="hero__title" data-hero-title>Main <span>Headline</span></h1>
+      <p class="hero__text" data-hero-text>Supporting paragraph describing the value proposition and call to action.</p>
+
+      <div class="hero__actions" data-hero-actions>
+        <a href="#" class="btn btn--primary btn--lg" data-hero-btn-primary>Get Started</a>
+        <a href="#" class="btn btn--secondary btn--lg" data-hero-btn-secondary>Learn More</a>
+      </div>
+
+      <!-- Stats (optional) -->
+      <div class="hero__stats" data-hero-stats hidden>
+        <div>
+          <p class="hero__stat-value" data-hero-stat-1-value>10K+</p>
+          <p class="hero__stat-label" data-hero-stat-1-label>Visas Processed</p>
+        </div>
+        <div>
+          <p class="hero__stat-value" data-hero-stat-2-value>50+</p>
+          <p class="hero__stat-label" data-hero-stat-2-label>Countries</p>
+        </div>
+        <div>
+          <p class="hero__stat-value" data-hero-stat-3-value>99%</p>
+          <p class="hero__stat-label" data-hero-stat-3-label>Success Rate</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right image -->
+    <div class="hero__media">
+      <img src="https://placehold.co/600x500/e8effd/1a56db?text=Hero+Image" alt="" class="hero__image" data-hero-image loading="lazy">
+    </div>
+  </div>
+</section>

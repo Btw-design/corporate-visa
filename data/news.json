@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "UK Launches Electronic Travel Authorization for Gulf Nationals",
+    "slug": "uk-electronic-travel-authorization-gulf",
+    "excerpt": "The United Kingdom has expanded its Electronic Travel Authorization scheme to include citizens of Qatar, Kuwait, Oman, Bahrain, and Saudi Arabia.",
+    "date": "2026-07-02",
+    "category": "Policy Update",
+    "image": "/assets/images/news/uk-eta.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Schengen Area to Launch Digital Visa Platform by End of 2026",
+    "slug": "schengen-digital-visa-platform-2026",
+    "excerpt": "The European Union has announced plans to launch a unified digital visa platform allowing travelers to apply for Schengen visas online.",
+    "date": "2026-06-25",
+    "category": "Digital Transformation",
+    "image": "/assets/images/news/schengen-digital.jpg"
+  },
+  {
+    "id": 3,
+    "title": "India Extends e-Visa Validity to 5 Years for US and UK Citizens",
+    "slug": "india-extends-evisa-validity-us-uk",
+    "excerpt": "India has announced extended e-Visa validity for citizens of the United States and United Kingdom, allowing longer stays for tourism and business.",
+    "date": "2026-06-18",
+    "category": "Policy Update",
+    "image": "/assets/images/news/india-evisa-extended.jpg"
+  },
+  {
+    "id": 4,
+    "title": "UAE Introduces 5-Year Multiple Entry Tourist Visa",
+    "slug": "uae-five-year-multiple-entry-tourist-visa",
+    "excerpt": "The UAE has launched a new five-year multiple-entry tourist visa system aimed at boosting tourism and business travel.",
+    "date": "2026-06-10",
+    "category": "New Visa Launch",
+    "image": "/assets/images/news/uae-five-year-visa.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Japan Relaxes Visa Requirements for Southeast Asian Nationals",
+    "slug": "japan-relaxes-visa-requirements-southeast-asia",
+    "excerpt": "Japan has eased visa requirements for citizens of several Southeast Asian countries to encourage tourism and business exchanges.",
+    "date": "2026-06-03",
+    "category": "Policy Update",
+    "image": "/assets/images/news/japan-visa-relaxation.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Australia Introduces Simplified Business Visitor Visa Stream",
+    "slug": "australia-simplified-business-visitor-visa",
+    "excerpt": "Australia has launched a new streamlined business visitor visa stream with reduced documentation and faster processing times.",
+    "date": "2026-05-27",
+    "category": "New Visa Launch",
+    "image": "/assets/images/news/australia-business-visa.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Brazil and China Sign Visa Waiver Agreement for Business Travelers",
+    "slug": "brazil-china-visa-waiver-business",
+    "excerpt": "Brazil and China have entered into a reciprocal visa waiver agreement for business travelers holding diplomatic and official passports.",
+    "date": "2026-05-20",
+    "category": "Bilateral Agreement",
+    "image": "/assets/images/news/brazil-china-waiver.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Turkey Reports Record e-Visa Applications in Q2 2026",
+    "slug": "turkey-record-evisa-applications-q2-2026",
+    "excerpt": "Turkey has reported a significant surge in e-Visa applications during the second quarter of 2026, driven by increased tourism and business travel.",
+    "date": "2026-05-13",
+    "category": "Industry News",
+    "image": "/assets/images/news/turkey-evisa-record.jpg"
+  }
+]

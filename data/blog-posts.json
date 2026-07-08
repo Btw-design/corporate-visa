@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Guide to US Business Visa Requirements in 2026",
+    "slug": "us-business-visa-guide-2026",
+    "excerpt": "Everything you need to know about applying for a US B1 business visa, including documentation, interview tips, and processing timelines.",
+    "category": "Visa Guides",
+    "author": "Sarah Mitchell",
+    "date": "2026-06-28",
+    "image": "/assets/images/blog/us-business-visa.jpg",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 2,
+    "title": "Schengen Visa: A Step-by-Step Application Process for Corporate Travelers",
+    "slug": "schengen-visa-corporate-travelers",
+    "excerpt": "Navigate the Schengen visa application process with confidence. Learn about required documents, biometric appointments, and multi-entry options.",
+    "category": "Visa Guides",
+    "author": "James Anderson",
+    "date": "2026-06-21",
+    "image": "/assets/images/blog/schengen-visa.jpg",
+    "readTime": "10 min read"
+  },
+  {
+    "id": 3,
+    "title": "Top 10 Countries with Fastest e-Visa Processing for Business Travel",
+    "slug": "fastest-e-visa-countries-business-travel",
+    "excerpt": "Discover which countries offer the quickest e-Visa processing times for corporate travelers, from Turkey to Singapore.",
+    "category": "Business Travel",
+    "author": "Priya Sharma",
+    "date": "2026-06-14",
+    "image": "/assets/images/blog/fastest-e-visa.jpg",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 4,
+    "title": "UK Visa Changes 2026: What Corporate Travelers Need to Know",
+    "slug": "uk-visa-changes-2026-corporate",
+    "excerpt": "Recent updates to UK visa policies affecting business visitors, including the new Electronic Travel Authorization system.",
+    "category": "Visa Updates",
+    "author": "Michael Chen",
+    "date": "2026-06-07",
+    "image": "/assets/images/blog/uk-visa-changes.jpg",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 5,
+    "title": "How to Prepare for Your US Visa Interview: Corporate Edition",
+    "slug": "us-visa-interview-preparation-corporate",
+    "excerpt": "Expert tips for corporate professionals preparing for US visa interviews, including document checklist and common questions.",
+    "category": "Visa Tips",
+    "author": "Sarah Mitchell",
+    "date": "2026-05-30",
+    "image": "/assets/images/blog/visa-interview.jpg",
+    "readTime": "9 min read"
+  },
+  {
+    "id": 6,
+    "title": "Digital Nomad Visas: The New Era of Work and Travel",
+    "slug": "digital-nomad-visas-guide",
+    "excerpt": "An overview of digital nomad visa programs worldwide and how they are reshaping corporate travel and remote work policies.",
+    "category": "Business Travel",
+    "author": "Emma Wilson",
+    "date": "2026-05-23",
+    "image": "/assets/images/blog/digital-nomad.jpg",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 7,
+    "title": "China Visa Made Easy: Complete Guide for Business Visitors",
+    "slug": "china-business-visa-complete-guide",
+    "excerpt": "A comprehensive walkthrough of China's M visa application process, including invitation letters and recent policy relaxations.",
+    "category": "Visa Guides",
+    "author": "James Anderson",
+    "date": "2026-05-16",
+    "image": "/assets/images/blog/china-visa.jpg",
+    "readTime": "9 min read"
+  },
+  {
+    "id": 8,
+    "title": "Corporate Travel Policy Best Practices for 2026",
+    "slug": "corporate-travel-policy-best-practices-2026",
+    "excerpt": "How to build a robust corporate travel policy that balances cost efficiency with employee convenience and compliance.",
+    "category": "Corporate Travel",
+    "author": "Michael Chen",
+    "date": "2026-05-09",
+    "image": "/assets/images/blog/corporate-travel-policy.jpg",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 9,
+    "title": "India e-Visa Guide: Business and Tourist Visa Options Explained",
+    "slug": "india-e-visa-guide-business-tourist",
+    "excerpt": "Everything about India's e-Visa system including e-Business, e-Tourist, and e-Medical visa categories with processing details.",
+    "category": "Visa Guides",
+    "author": "Priya Sharma",
+    "date": "2026-05-02",
+    "image": "/assets/images/blog/india-e-visa.jpg",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 10,
+    "title": "Avoiding Common Visa Rejection Reasons for Business Travelers",
+    "slug": "common-visa-rejection-reasons-business",
+    "excerpt": "Learn about the most frequent reasons business visa applications get rejected and how to address them proactively.",
+    "category": "Visa Tips",
+    "author": "Emma Wilson",
+    "date": "2026-04-25",
+    "image": "/assets/images/blog/visa-rejection.jpg",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 11,
+    "title": "Gulf Country Visas: Comparing UAE, Saudi Arabia, and Qatar Requirements",
+    "slug": "gulf-country-visas-comparison-uae-saudi-qatar",
+    "excerpt": "A side-by-side comparison of business visa requirements for the UAE, Saudi Arabia, and Qatar for corporate travelers.",
+    "category": "Visa Guides",
+    "author": "Sarah Mitchell",
+    "date": "2026-04-18",
+    "image": "/assets/images/blog/gulf-visas.jpg",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 12,
+    "title": "Sustainable Corporate Travel: Reducing Your Carbon Footprint Abroad",
+    "slug": "sustainable-corporate-travel-carbon-footprint",
+    "excerpt": "Practical strategies for companies looking to reduce the environmental impact of their corporate travel programs.",
+    "category": "Corporate Travel",
+    "author": "James Anderson",
+    "date": "2026-04-11",
+    "image": "/assets/images/blog/sustainable-travel.jpg",
+    "readTime": "6 min read"
+  }
+]
