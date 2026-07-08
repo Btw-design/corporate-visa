@@ -83,14 +83,14 @@ function generateCountryPage(country) {
   }
   </script>
 
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/x-icon" href="/corporate-visa/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/corporate-visa/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/corporate-visa/manifest.json">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/assets/css/style.css" media="all">
+  <link rel="stylesheet" href="/corporate-visa/assets/css/style.min.css" media="all">
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -161,7 +161,7 @@ function generateCountryPage(country) {
     <section class="country-hero" aria-labelledby="country-name">
       <div class="container">
         <div class="country-hero__inner">
-          <img src="/assets/images/flags/${id}.svg" alt="Flag of ${name}" class="country-hero__flag" width="80" height="60" onerror="this.style.display='none'">
+          <img src="/corporate-visa/assets/images/flags/${id}.svg" alt="Flag of ${name}" class="country-hero__flag" width="80" height="60" onerror="this.style.display='none'">
           <div class="country-hero__info">
             <h1 id="country-name" class="country-hero__name">${name} Visa Guide</h1>
             <p class="lead">${description || 'Complete visa information including requirements, fees, processing time, and application process.'}</p>
@@ -214,7 +214,7 @@ function generateCountryPage(country) {
             <a href="/contact-us/" class="btn btn--primary">Apply for ${name} Visa</a>
           </div>
           <div class="animate">
-            <img src="/assets/images/countries/${id}.jpg" alt="${name} travel and visa guide" class="rounded-xl shadow-md" width="560" height="400" loading="lazy" onerror="this.style.display='none'">
+            <img src="/corporate-visa/assets/images/countries/${id}.jpg" alt="${name} travel and visa guide" class="rounded-xl shadow-md" width="560" height="400" loading="lazy" onerror="this.style.display='none'">
           </div>
         </div>
       </div>
@@ -346,14 +346,14 @@ function generateCountryPage(country) {
     </div>
   </div>
 
-  <script src="/assets/js/app.js" defer></script>
-  <script src="/assets/js/navigation.js" defer></script>
-  <script src="/assets/js/search.js" defer></script>
-  <script src="/assets/js/accordion.js" defer></script>
-  <script src="/assets/js/faq.js" defer></script>
-  <script src="/assets/js/forms.js" defer></script>
-  <script src="/assets/js/lazyload.js" defer></script>
-  <script src="/assets/js/analytics.js" defer></script>
+  <script src="/corporate-visa/assets/js/app.js" defer></script>
+  <script src="/corporate-visa/assets/js/navigation.js" defer></script>
+  <script src="/corporate-visa/assets/js/search.js" defer></script>
+  <script src="/corporate-visa/assets/js/accordion.js" defer></script>
+  <script src="/corporate-visa/assets/js/faq.js" defer></script>
+  <script src="/corporate-visa/assets/js/forms.js" defer></script>
+  <script src="/corporate-visa/assets/js/lazyload.js" defer></script>
+  <script src="/corporate-visa/assets/js/analytics.js" defer></script>
 </body>
 </html>`;
 }
