@@ -1,0 +1,29 @@
+<!-- ============================================================
+  Newsletter Component — Reusable
+  Usage (block):
+    <div data-component="newsletter"
+         data-title="Subscribe to Our Newsletter"
+         data-text="Get the latest visa updates and travel tips delivered to your inbox."
+         data-layout="block">
+    </div>
+  Usage (inline):
+    <div data-component="newsletter"
+         data-title="Stay Updated"
+         data-text="Subscribe for visa news & travel insights."
+         data-layout="inline">
+    </div>
+  ============================================================ -->
+<div class="newsletter" data-newsletter data-layout="block">
+  <div class="newsletter__content">
+    <h3 class="newsletter__title" data-newsletter-title>Subscribe to Our Newsletter</h3>
+    <p class="newsletter__text" data-newsletter-text>
+      Get the latest visa updates and travel tips delivered to your inbox.
+    </p>
+  </div>
+  <form class="newsletter__form" data-newsletter-form action="/api/newsletter/" method="POST" novalidate>
+    <label for="newsletter-email" class="sr-only">Email address</label>
+    <input id="newsletter-email" class="form__input" type="email" name="email" placeholder="Enter your email address" required autocomplete="email" aria-describedby="newsletter-desc">
+    <button class="btn btn--primary" type="submit">Subscribe</button>
+  </form>
+  <p id="newsletter-desc" class="sr-only">We respect your privacy. Unsubscribe at any time.</p>
+</div>

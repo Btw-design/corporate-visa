@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Patel",
+    "role": "VP of Global Operations",
+    "company": "TechCorp International",
+    "quote": "BTW Visa has been instrumental in managing our corporate travel visas across 15 countries. Their team's expertise in handling complex multi-country visa applications has saved us countless hours and eliminated travel disruptions.",
+    "avatar": "/assets/images/testimonials/rajesh-patel.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jennifer Walsh",
+    "role": "Head of Travel & Events",
+    "company": "FinServe Global",
+    "quote": "We switched to BTW Visa for our corporate travel needs and haven't looked back. Their visa tracking system gives us real-time visibility into application status, and their response time is exceptional even for urgent requests.",
+    "avatar": "/assets/images/testimonials/jennifer-walsh.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ahmed Al Mansouri",
+    "role": "Procurement Director",
+    "company": "Gulf Energy Group",
+    "quote": "The Ok to Board service from BTW Visa has been a game-changer for our executives traveling frequently. We no longer worry about documentation issues at check-in counters. Highly professional and reliable team.",
+    "avatar": "/assets/images/testimonials/ahmed-al-mansouri.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lisa Chen",
+    "role": "Global Mobility Manager",
+    "company": "OmniTech Solutions",
+    "quote": "BTW Visa's corporate air ticketing and hotel booking services have streamlined our entire travel management process. Their negotiated corporate rates have also resulted in significant cost savings for our organization.",
+    "avatar": "/assets/images/testimonials/lisa-chen.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Carlos Mendoza",
+    "role": "CEO",
+    "company": "Mendoza International Trading",
+    "quote": "As a frequent business traveler, I rely on BTW Visa for all my visa needs. Their attention to detail and thorough document review ensures my applications are always approved on the first attempt. Truly outstanding service.",
+    "avatar": "/assets/images/testimonials/carlos-mendoza.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Priya Nair",
+    "role": "HR Director",
+    "company": "InnovateTech India",
+    "quote": "Organizing corporate holiday packages for our team of 200+ employees used to be a nightmare. BTW Visa handles everything from visas to accommodations seamlessly. Our annual retreat was the best one yet thanks to their team.",
+    "avatar": "/assets/images/testimonials/priya-nair.jpg"
+  }
+]

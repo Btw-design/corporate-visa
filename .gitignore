@@ -1,0 +1,68 @@
+# ============================================================================
+# Git Ignore — BTW Visa Corporate
+# ============================================================================
+
+# Operating System Files
+Thumbs.db
+.DS_Store
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build Output
+*.min.css
+*.min.js
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.cert
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# OpenWork
+.opencode/
+
+# OS
+.vagrant/
+
+# Project-specific
+/assets/images/countries/
+/assets/images/flags/
+/assets/images/blogs/
+/assets/images/awareness/
+/assets/images/news/
+
+# But keep placeholder images
+!/assets/images/countries/.gitkeep
+!/assets/images/flags/.gitkeep
+!/assets/images/blogs/.gitkeep
+!/assets/images/awareness/.gitkeep
+!/assets/images/news/.gitkeep

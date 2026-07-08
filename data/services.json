@@ -1,0 +1,122 @@
+[
+  {
+    "id": "business-visa-assistance",
+    "title": "Business Visa Assistance",
+    "description": "End-to-end business visa processing for corporate travelers. Our experts handle documentation, application submission, and follow-ups with embassies worldwide.",
+    "icon": "/assets/images/icons/business-visa.svg",
+    "slug": "business-visa-assistance",
+    "features": [
+      "Document verification and checklist preparation",
+      "Application form filling and review",
+      "Appointment scheduling at embassies",
+      "Tracking and follow-up until visa decision",
+      "Multiple country visa coordination",
+      "Urgent and expedited processing options"
+    ]
+  },
+  {
+    "id": "corporate-air-ticketing",
+    "title": "Corporate Air Ticketing",
+    "description": "Comprehensive flight booking solutions for corporate travelers with access to exclusive fares and flexible cancellation policies.",
+    "icon": "/assets/images/icons/air-ticketing.svg",
+    "slug": "corporate-air-ticketing",
+    "features": [
+      "Domestic and international flight bookings",
+      "Corporate negotiated fare access",
+      "Group booking discounts",
+      "Flexible change and cancellation options",
+      "24/7 travel assistance",
+      "Multi-city itinerary management"
+    ]
+  },
+  {
+    "id": "corporate-hotel-booking",
+    "title": "Corporate Hotel Booking",
+    "description": "Curated hotel accommodations worldwide with corporate rates, ensuring comfort and convenience for business travelers.",
+    "icon": "/assets/images/icons/hotel-booking.svg",
+    "slug": "corporate-hotel-booking",
+    "features": [
+      "Global hotel inventory with corporate rates",
+      "Near-venue and airport proximity options",
+      "Last-minute booking support",
+      "Long-stay and serviced apartment options",
+      "Loyalty program integration",
+      "Direct billing and invoicing for companies"
+    ]
+  },
+  {
+    "id": "corporate-holiday-packages",
+    "title": "Corporate Holiday Packages",
+    "description": "Tailored group holiday packages for corporate team outings, retreats, and incentive travel programs.",
+    "icon": "/assets/images/icons/holiday-packages.svg",
+    "slug": "corporate-holiday-packages",
+    "features": [
+      "Customized itinerary planning",
+      "Team building activity integration",
+      "Group transportation and accommodation",
+      "Incentive travel program design",
+      "Destination management services",
+      "Budget optimization for corporate events"
+    ]
+  },
+  {
+    "id": "ok-to-board",
+    "title": "Ok to Board",
+    "description": "Verified Ok to Board services ensuring all travel documentation is complete and approved before flight departure for hassle-free travel.",
+    "icon": "/assets/images/icons/ok-to-board.svg",
+    "slug": "ok-to-board",
+    "features": [
+      "Pre-flight document verification",
+      "Visa validity confirmation with airlines",
+      "Real-time status updates",
+      "Emergency documentation support",
+      "Coordination with airline check-in counters",
+      "Compliance with immigration requirements"
+    ]
+  },
+  {
+    "id": "passport-index",
+    "title": "Passport Index",
+    "description": "Comprehensive passport ranking and visa requirement database to help travelers understand their travel freedom and document needs.",
+    "icon": "/assets/images/icons/passport-index.svg",
+    "slug": "passport-index",
+    "features": [
+      "Passport strength ranking and scoring",
+      "Visa-free, visa-on-arrival, and e-Visa destinations",
+      "Country-specific entry requirements",
+      "Passport validity and renewal information",
+      "Comparative passport analysis",
+      "Travel readiness assessment"
+    ]
+  },
+  {
+    "id": "visa-tracking",
+    "title": "Visa Tracking",
+    "description": "Real-time visa application tracking system that monitors application status across multiple embassies and provides timely updates.",
+    "icon": "/assets/images/icons/visa-tracking.svg",
+    "slug": "visa-tracking",
+    "features": [
+      "Real-time application status monitoring",
+      "Multi-embassy tracking dashboard",
+      "Automated SMS and email notifications",
+      "Document submission reminders",
+      "Historical application records",
+      "Dedicated case manager support"
+    ]
+  },
+  {
+    "id": "e-visa",
+    "title": "e-Visa",
+    "description": "Fast and paperless electronic visa processing for eligible destinations, eliminating the need for physical embassy visits.",
+    "icon": "/assets/images/icons/e-visa.svg",
+    "slug": "e-visa",
+    "features": [
+      "Online application submission",
+      "Digital document upload and verification",
+      "Quick processing within 24-72 hours",
+      "Secure payment processing",
+      "e-Visa delivery to email",
+      "Comprehensive country eligibility checking"
+    ]
+  }
+]
