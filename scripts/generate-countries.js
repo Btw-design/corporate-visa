@@ -84,7 +84,7 @@ function generateCountryPage(country) {
   </script>
 
   <link rel="icon" type="image/x-icon" href="/corporate-visa/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/corporate-visa/assets/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/corporate-visa/assets/icons/apple-touch-icon.svg">
   <link rel="manifest" href="/corporate-visa/manifest.json">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -97,7 +97,7 @@ function generateCountryPage(country) {
 
   <header class="header" role="banner">
     <div class="container header__inner">
-      <a href="/" class="header__logo" aria-label="BTW Visa Home">
+      <a href="/corporate-visa/" class="header__logo" aria-label="BTW Visa Home">
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="40" height="40" rx="10" fill="#1a56db"/>
           <path d="M12 20L18 26L28 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -106,36 +106,36 @@ function generateCountryPage(country) {
       </a>
       <nav class="nav" role="navigation" aria-label="Main navigation">
         <ul class="nav__list" role="menubar">
-          <li class="nav__item" role="none"><a href="/" class="nav__link" role="menuitem">Home</a></li>
-          <li class="nav__item" role="none"><a href="/about/" class="nav__link" role="menuitem">About Us</a></li>
+          <li class="nav__item" role="none"><a href="/corporate-visa/" class="nav__link" role="menuitem">Home</a></li>
+          <li class="nav__item" role="none"><a href="/corporate-visa/about/" class="nav__link" role="menuitem">About Us</a></li>
           <li class="nav__item nav__item--has-mega" role="none">
-            <a href="/our-services/" class="nav__link" role="menuitem" aria-haspopup="true">Services <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></a>
+            <a href="/corporate-visa/our-services/" class="nav__link" role="menuitem" aria-haspopup="true">Services <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></a>
             <div class="mega-menu" role="menu">
               <div class="mega-menu__grid">
                 <div class="mega-menu__section">
                   <h3 class="mega-menu__heading">Visa Services</h3>
                   <div class="mega-menu__items">
-                    <a href="/business-visa-assistance/" class="mega-menu__link" role="menuitem">Business Visa Assistance</a>
-                    <a href="/evisa/" class="mega-menu__link" role="menuitem">e-Visa</a>
-                    <a href="/visa-tracking/" class="mega-menu__link" role="menuitem">Visa Tracking</a>
-                    <a href="/passport-index/" class="mega-menu__link" role="menuitem">Passport Index</a>
+                    <a href="/corporate-visa/business-visa-assistance/" class="mega-menu__link" role="menuitem">Business Visa Assistance</a>
+                    <a href="/corporate-visa/evisa/" class="mega-menu__link" role="menuitem">e-Visa</a>
+                    <a href="/corporate-visa/visa-tracking/" class="mega-menu__link" role="menuitem">Visa Tracking</a>
+                    <a href="/corporate-visa/passport-index/" class="mega-menu__link" role="menuitem">Passport Index</a>
                   </div>
                 </div>
                 <div class="mega-menu__section">
                   <h3 class="mega-menu__heading">Travel Services</h3>
                   <div class="mega-menu__items">
-                    <a href="/corporate-air-ticketing/" class="mega-menu__link" role="menuitem">Corporate Air Ticketing</a>
-                    <a href="/corporate-hotel-booking/" class="mega-menu__link" role="menuitem">Corporate Hotel Booking</a>
-                    <a href="/corporate-holiday-packages/" class="mega-menu__link" role="menuitem">Corporate Holiday Packages</a>
-                    <a href="/ok-to-board/" class="mega-menu__link" role="menuitem">Ok to Board</a>
+                    <a href="/corporate-visa/corporate-air-ticketing/" class="mega-menu__link" role="menuitem">Corporate Air Ticketing</a>
+                    <a href="/corporate-visa/corporate-hotel-booking/" class="mega-menu__link" role="menuitem">Corporate Hotel Booking</a>
+                    <a href="/corporate-visa/corporate-holiday-packages/" class="mega-menu__link" role="menuitem">Corporate Holiday Packages</a>
+                    <a href="/corporate-visa/ok-to-board/" class="mega-menu__link" role="menuitem">Ok to Board</a>
                   </div>
                 </div>
               </div>
             </div>
           </li>
-          <li class="nav__item" role="none"><a href="/visa-guide/" class="nav__link nav__link--active" role="menuitem" aria-current="page">Visa Guide</a></li>
-          <li class="nav__item" role="none"><a href="/insights/" class="nav__link" role="menuitem">Insights</a></li>
-          <li class="nav__item" role="none"><a href="/contact-us/" class="nav__link" role="menuitem">Contact Us</a></li>
+          <li class="nav__item" role="none"><a href="/corporate-visa/visa-guide/" class="nav__link nav__link--active" role="menuitem" aria-current="page">Visa Guide</a></li>
+          <li class="nav__item" role="none"><a href="/corporate-visa/insights/" class="nav__link" role="menuitem">Insights</a></li>
+          <li class="nav__item" role="none"><a href="/corporate-visa/contact-us/" class="nav__link" role="menuitem">Contact Us</a></li>
         </ul>
         <div class="search d-none d-md-block">
           <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -152,8 +152,8 @@ function generateCountryPage(country) {
   <main id="main-content">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <span class="breadcrumb__item"><a href="/" class="breadcrumb__link">Home</a></span>
-        <span class="breadcrumb__item"><a href="/visa-guide/" class="breadcrumb__link">Visa Guide</a></span>
+        <span class="breadcrumb__item"><a href="/corporate-visa/" class="breadcrumb__link">Home</a></span>
+        <span class="breadcrumb__item"><a href="/corporate-visa/visa-guide/" class="breadcrumb__link">Visa Guide</a></span>
         <span class="breadcrumb__item"><span class="breadcrumb__current" aria-current="page">${name} Visa</span></span>
       </nav>
     </div>
@@ -211,7 +211,7 @@ function generateCountryPage(country) {
             <h2 id="about-visa-title" class="h2">${name} Visa Information</h2>
             <p>${name} offers a range of visa options for business travelers, tourists, and corporate visitors. Whether you're attending meetings, conferences, or exploring business opportunities, we provide complete visa assistance.</p>
             <p>BTW Visa provides end-to-end assistance for all ${name} visa types, ensuring a smooth and hassle-free application process for your corporate travel needs.</p>
-            <a href="/contact-us/" class="btn btn--primary">Apply for ${name} Visa</a>
+            <a href="/corporate-visa/contact-us/" class="btn btn--primary">Apply for ${name} Visa</a>
           </div>
           <div class="animate">
             <img src="/corporate-visa/assets/images/countries/${id}.jpg" alt="${name} travel and visa guide" class="rounded-xl shadow-md" width="560" height="400" loading="lazy" onerror="this.style.display='none'">
@@ -264,7 +264,7 @@ function generateCountryPage(country) {
         </div>
         <div class="grid grid--auto">
           ${related.map(c => `
-          <a href="/visa-guide/${c.id}/" class="card card--country animate" style="aspect-ratio:4/3;background:linear-gradient(135deg, var(--color-gray-800), var(--color-gray-900));display:flex;align-items:flex-end;padding:var(--space-6);text-decoration:none;">
+          <a href="/corporate-visa/visa-guide/${c.id}/" class="card card--country animate" style="aspect-ratio:4/3;background:linear-gradient(135deg, var(--color-gray-800), var(--color-gray-900));display:flex;align-items:flex-end;padding:var(--space-6);text-decoration:none;">
             <div>
               <h3 style="color:var(--color-white);font-size:var(--text-lg);font-weight:var(--font-weight-semibold);">${c.name} Visa</h3>
               <p style="color:var(--color-gray-400);font-size:var(--text-sm);margin:0;">View visa requirements →</p>
@@ -279,8 +279,8 @@ function generateCountryPage(country) {
         <h2 id="cta-country-title" class="cta__title">Ready to Apply for Your ${name} Visa?</h2>
         <p class="cta__text">Our visa experts will guide you through every step. Get started today.</p>
         <div class="cta__actions">
-          <a href="/contact-us/" class="btn btn--lg" style="background:white;color:var(--color-primary);">Apply Now</a>
-          <a href="/business-visa-assistance/" class="btn btn--ghost btn--lg">Learn About Our Services</a>
+          <a href="/corporate-visa/contact-us/" class="btn btn--lg" style="background:white;color:var(--color-primary);">Apply Now</a>
+          <a href="/corporate-visa/business-visa-assistance/" class="btn btn--ghost btn--lg">Learn About Our Services</a>
         </div>
       </div>
     </section>
@@ -290,7 +290,7 @@ function generateCountryPage(country) {
     <div class="container">
       <div class="footer__inner">
         <div class="footer__brand">
-          <a href="/" class="footer__logo">
+          <a href="/corporate-visa/" class="footer__logo">
             <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="40" height="40" rx="10" fill="#1a56db"/>
               <path d="M12 20L18 26L28 14" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -305,26 +305,26 @@ function generateCountryPage(country) {
           </div>
         </div>
         <div><h3 class="footer__heading">Quick Links</h3><ul class="footer__links">
-          <li><a href="/" class="footer__link">Home</a></li><li><a href="/about/" class="footer__link">About Us</a></li>
-          <li><a href="/contact-us/" class="footer__link">Contact Us</a></li><li><a href="/why-choose-us/" class="footer__link">Why Choose Us</a></li>
-          <li><a href="/our-services/" class="footer__link">Our Services</a></li>
+          <li><a href="/corporate-visa/" class="footer__link">Home</a></li><li><a href="/corporate-visa/about/" class="footer__link">About Us</a></li>
+          <li><a href="/corporate-visa/contact-us/" class="footer__link">Contact Us</a></li><li><a href="/corporate-visa/why-choose-us/" class="footer__link">Why Choose Us</a></li>
+          <li><a href="/corporate-visa/our-services/" class="footer__link">Our Services</a></li>
         </ul></div>
         <div><h3 class="footer__heading">Visa Services</h3><ul class="footer__links">
-          <li><a href="/business-visa-assistance/" class="footer__link">Business Visa</a></li><li><a href="/evisa/" class="footer__link">e-Visa</a></li>
-          <li><a href="/passport-index/" class="footer__link">Passport Index</a></li><li><a href="/visa-tracking/" class="footer__link">Visa Tracking</a></li>
-          <li><a href="/visa-guide/" class="footer__link">Visa Guide</a></li>
+          <li><a href="/corporate-visa/business-visa-assistance/" class="footer__link">Business Visa</a></li><li><a href="/corporate-visa/evisa/" class="footer__link">e-Visa</a></li>
+          <li><a href="/corporate-visa/passport-index/" class="footer__link">Passport Index</a></li><li><a href="/corporate-visa/visa-tracking/" class="footer__link">Visa Tracking</a></li>
+          <li><a href="/corporate-visa/visa-guide/" class="footer__link">Visa Guide</a></li>
         </ul></div>
         <div><h3 class="footer__heading">Travel Services</h3><ul class="footer__links">
-          <li><a href="/corporate-air-ticketing/" class="footer__link">Air Ticketing</a></li><li><a href="/corporate-hotel-booking/" class="footer__link">Hotel Booking</a></li>
-          <li><a href="/corporate-holiday-packages/" class="footer__link">Holiday Packages</a></li><li><a href="/ok-to-board/" class="footer__link">Ok to Board</a></li>
+          <li><a href="/corporate-visa/corporate-air-ticketing/" class="footer__link">Air Ticketing</a></li><li><a href="/corporate-visa/corporate-hotel-booking/" class="footer__link">Hotel Booking</a></li>
+          <li><a href="/corporate-visa/corporate-holiday-packages/" class="footer__link">Holiday Packages</a></li><li><a href="/corporate-visa/ok-to-board/" class="footer__link">Ok to Board</a></li>
         </ul></div>
       </div>
       <div class="footer__bottom">
         <p class="footer__copyright">&copy; 2026 BTW Visa. All rights reserved.</p>
         <div class="footer__legal">
-          <a href="/privacy-policy/" class="footer__legal-link">Privacy Policy</a>
-          <a href="/terms-conditions/" class="footer__legal-link">Terms of Service</a>
-          <a href="/refund-policy/" class="footer__legal-link">Refund Policy</a>
+          <a href="/corporate-visa/privacy-policy/" class="footer__legal-link">Privacy Policy</a>
+          <a href="/corporate-visa/terms-conditions/" class="footer__legal-link">Terms of Service</a>
+          <a href="/corporate-visa/refund-policy/" class="footer__legal-link">Refund Policy</a>
         </div>
       </div>
     </div>
